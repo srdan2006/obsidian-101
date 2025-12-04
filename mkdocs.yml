@@ -1,0 +1,16 @@
+site_name: Obsidian 101
+theme: readthedocs
+nav:
+  - Uvod: index.md
+  - Teorijski okvir: 1.md
+  - Faze upravljanja znanjem: 2.md
+  - Stilovi upravljanja: 3.md
+  - Uvod u Obsidian: 4.md
+  - Markdown: 5.md
+  - Struktura vaulta: 6.md
+  - Povezivanje bilješki: 7.md
+  - Korištenje vaulta: 8.md
+  - Predlošci: 9.md
+  - Plugins: 10.md
+  - Ostalo: 12.md
+  - Zaključak: 13.md
