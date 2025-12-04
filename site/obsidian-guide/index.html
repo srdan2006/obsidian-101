@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Obsidian guide - Obsidian 101</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Obsidian guide";
+        var mkdocs_page_input_path = "obsidian-guide.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Obsidian 101
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Uvod</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../1/">Teorijski okvir</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../2/">Faze upravljanja znanjem</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../3/">Stilovi upravljanja</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../4/">Uvod u Obsidian</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../5/">Markdown</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../6/">Struktura vaulta</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../7/">Povezivanje bilješki</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../8/">Korištenje vaulta</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../9/">Predlošci</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../10/">Plugins</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../12/">Ostalo</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../13/">Zaključak</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Obsidian 101</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Obsidian guide</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <ul>
+<li><a href="#1-teorijski-okvir-osobnog-upravljanja-znanjem">1. Teorijski okvir osobnog upravljanja znanjem</a></li>
+<li><a href="#2-faze-upravljanja-znanjem-unos-organizacija-povezivanje-korištenje">2. Faze upravljanja znanjem: unos, organizacija, povezivanje, korištenje</a><ul>
+<li><a href="#21--unos-prikupljanje-informacija">2.1.  Unos (prikupljanje informacija)</a></li>
+<li><a href="#22-organizacija-strukturiranje-i-kontekstualizacija">2.2. Organizacija (strukturiranje i kontekstualizacija) </a></li>
+<li><a href="#23-povezivanje-umrežavanje-znanja">2.3. Povezivanje (umrežavanje znanja)</a></li>
+<li><a href="#24-korištenje-primjena-znanja">2.4. Korištenje (primjena znanja)</a></li>
+</ul>
+</li>
+<li><a href="#3-stilovi-upravljanja-sustavom-i-vođenja-bilješki-i-upravljanja-sustavom-arhitekti-vs-vrtlari">3. Stilovi upravljanja sustavom i vođenja bilješki i upravljanja sustavom: “arhitekti” vs “vrtlari”</a></li>
+<li><a href="#4-uvod-u-obsidian--prvi-koraci">4. Uvod u Obsidian – prvi koraci</a></li>
+<li><a href="#5-markdown---perolaki-označiteljski-jezik-za-vođenje-bilježaka">5. Markdown - perolaki označiteljski jezik za vođenje bilježaka</a></li>
+<li><a href="#6-struktura-vaulta-i-organizacija-bilješki-u-obsidianu">6. Struktura vaulta i organizacija bilješki u Obsidianu</a></li>
+<li><a href="#7-povezivanje-bilješki-linkovi-reference-i-graf">7. Povezivanje bilješki: linkovi, reference i graf</a></li>
+<li><a href="#8-korištenje-spremišta-pretraživanje-filtriranje-i-izvlačenje-dodane-vrijednosti">8. Korištenje spremišta: pretraživanje, filtriranje i izvlačenje (dodane) vrijednosti</a></li>
+<li><a href="#9-predlošci-eng-templates--konzistentnost-i-veća-učinkovitost">9. Predlošci (eng. Templates) – konzistentnost i veća učinkovitost</a></li>
+<li><a href="#10-plugins---funkcionalni-dodaci-sustavu-npr-tasks-calendar-dataview">10. Plugins - funkcionalni dodaci sustavu (npr. Tasks, Calendar, Dataview)</a></li>
+<li><a href="#11-praktična-vježba-izrada-bilješke-za-pregled-literature">11. Praktična vježba: izrada bilješke za pregled literature</a></li>
+<li><a href="#12-ostali-primjeri-i-vježbe-za-samostalno-istraživanje">12. Ostali primjeri i vježbe za samostalno istraživanje</a></li>
+<li><a href="#13-zaključak-i-idući-koraci">13. Zaključak i idući koraci</a></li>
+</ul>
+<h2 id="1-teorijski-okvir-osobnog-upravljanja-znanjem">1. Teorijski okvir osobnog upravljanja znanjem</h2>
+<p><strong>Eksternalizacija znanja:</strong> Prema Nonakinom SECI modelu, <em>eksternalizacija</em> je proces pretvaranja <strong>tacitnog znanja</strong> (unutarnjeg, neizrečenog) u <strong>eksplicitno znanje</strong> zapisivanjem ili izražavanjem ideja​. Drugim riječima, bilježenjem svojih misli i informacija oslobađamo prostor u svom umu i činimo znanje dostupnim za kasnije dijeljenje i korištenje. Ova praksa izgradnje vanjske memorije često se naziva izgradnjom <em>proširenog uma</em> (eng. <em>second brain</em>).</p>
+<p><strong>Prošireni um:</strong> <em>Second Brain</em> koncept popularizirao je Tiago Forte. Ideja je razviti <strong>osobni sustav bilješki</strong> koji djeluje kao produžetak vlastitog uma – <strong>vanjsko, centralizirano (digitalno) spremište</strong> za sve informacije koje prikupimo ili sve što naučiomo. Takav sustav čuva naše ideje i razmišljanja od zaborava i omogućuje nam da povezujemo informacije te lakše stvaramo nove sadržaje na temelju prikupljenog znanja.</p>
+<p><strong>Zettelkasten metoda:</strong> <em>Zettelkasten</em> (njem. <em>kutija s ceduljama</em>) je metoda vođenja bilješki koju je u istraživanju proslavio sociolog Niklas Luhmann. Radi se o sustavu <strong>međusobno povezanih bilješki</strong> (izvorno papirnatih kartica) koje se označavaju jedinstvenim ID-om i međusobno su povezane i tvore mrežu ideja. Kažu da je Luhmann uz pomoć ove metode izradio preko 90 000 bilješki, napisao oko 70 knjiga i stotine članaka. Njegova iznimna produktivnost se često pripisuje Zettelkasten sustavu. Ključ Zettelkasten metode je da svaka bilješka sadrži jednu ideju, a veze među bilješkama potiču nove uvide (načelo “spajanja točaka” znanja).</p>
+<p><strong>PARA metoda:</strong> Za organizaciju velike količine informacija, Tiago Forte je razvio metodu <strong>P.A.R.A.</strong> koja sav sadržaj dijeli u <strong>četiri kategorije</strong>: <strong>Projects (Projekti)</strong>, <strong>Areas (Područja)</strong>, <strong>Resources (Resursi)</strong> i <strong>Archive (Arhiva)</strong>. 
+- Projekti su aktivni kratkoročni zadaci s konkretnim ciljem (npr. “Napisati izvještaj”)
+- Područja su trajna odgovornosti ili interesi (npr. “Nastava”, “Istraživanje”) 
+- Resursi su referentni materijali i teme koje vas zanimaju (npr. “Metodologija istraživanja”, “Učenje jezika”)
+- Arhiva sadrži neaktivne projekte i informacije koje više nisu potrebne, ali ih želimo čuvati. </p>
+<p>PARA pruža jednostavnu strukturu za spremanje bilo koje informacije unutar ta četiri okvira​, pomažući da uvijek znamo “gdje što ide” i da je sustav usmjeren na <strong>akciju</strong>.</p>
+<p><strong>ACE sustav (Atlas, Calendar, Efforts)</strong> je alternativni model organizacije osobnog znanja i rada, jednostavniji od PARA, a temelji se na tri glavne kategorije:
+- Atlas znanja (eng. <em>Atlas</em>) – tvoje trajna znanja i koncepti. Ovo je intelektualna mapa svega što znamo ili učimo.  Sadrži bilješke o teorijama, disciplinama, istraživanjima, idejama i vezama među njima.
+- Kalendar (eng. <em>Calendar</em>) – sve što ima vremensku komponentu, početak i kraj: sastanci, dnevnici, planiranje, refleksije, zapisi s nastave, dnevne bilješke. Ovdje pratimo kada se nešto dogodilo ili se tek treba dogoditi.
+- Angažman (eng. <em>Efforts</em>)– tvoje aktivnosti i trenutni rad: projekti, zadaci, planovi, skice. Fokus je na onome što trenutno radiš ili razvijaš – uključuje nacrte članaka, kurikulume, prezentacije i sl.</p>
+<p>Za razliku od PARA, <strong>ACE sustav</strong> više rezonira s akademskim i misaonim radom jer jasno odvaja trajno znanje (Atlas) od vremenski vezanih zapisa (Calendar) i trenutnog angažmana (Efforts), čime potiče bolje povezivanje i refleksiju u radu.</p>
+<p><strong>Napomena:</strong> Ne postoji jedinstveni pristup koji svima odgovara – ovo su samo neke ideje koje  ćemo kombinirati i prilagoditi osobnim stilovima vođenja bilješki. Bitno je razumjeti <em>zašto</em> vodimo bilješke: kako bismo rasteretili mozak, bolje učili, te imali bazu znanja koju možemo pretraživati, povezivati i koristiti za <strong>kreiranje novih ideja</strong> ili materijala.</p>
+<h2 id="2-faze-upravljanja-znanjem-unos-organizacija-povezivanje-koristenje">2. Faze upravljanja znanjem: unos, organizacija, povezivanje, korištenje</h2>
+<p><strong>Upravljanje osobnim informacijama i znanjem</strong> možemo raščlaniti na nekoliko faza kroz koje informacija prolazi. Tijekom radionice upoznat ćemo se s praksama i alatima za svaku od navedenih faza. </p>
+<h3 id="21-unos-prikupljanje-informacija">2.1.  Unos (prikupljanje informacija)</h3>
+<p>Prvi korak je <strong>hvatanje bilješki i izvora</strong> – zapisivanje ideja čim se pojave i spremanje relevantnih informacija iz okoline. Važno je razviti naviku <em>“capture”</em> procesa: bilježiti zanimljive misli, citate iz članaka, literaturne reference, web sadržaje i dr. Alati poput <strong>Zotero</strong> (RMS) pomažu pri prikupljanju znanstvene literature – npr. jednim klikom putem dodatka pregledniku spremaju se članci s kompletnim metapodacima (autori, naslov, časopis itd.) u Zotero biblioteku. Također, <strong>web clipper</strong> (npr. <em>MarkDownload</em> ili Obsidianov vlastiti web clipper) omogućuje spremanje web stranica i istaknutog teksta kao trajnih bilješki u <strong>Markdown</strong> formatu​. </p>
+<blockquote>
+<p>[!TIP] Savjet
+ Uvesti privremenu mapu poput <code>+Inbox</code> u Obsidianu korisno je za brzo spremanje svih neobrađenih sadržaja, koje se kasnije mogu pregledati, povezati i obogatiti, odnosno obrisati. </p>
+<p>[!NOTE] Informacijska dijeta
+U ovom kontekstu, korisno je primijeniti princip <strong>"informacijske dijete"</strong> – svjesnog ograničavanja količine informacija koje unosimo. To ne znači ignoriranje važnih izvora, već <strong>fokusirano prikupljanje</strong> samo onih informacija koje:
+odgovaraju na konkretno pitanje ili problem,
+imaju potencijal da budu korisne u vašem radu ili učenju,
+dolaze iz pouzdanih i relevantnih izvora</p>
+</blockquote>
+<h3 id="22-organizacija-strukturiranje-i-kontekstualizacija">2.2. Organizacija (strukturiranje i kontekstualizacija)</h3>
+<p>Nakon prikupljanja slijedi <strong>organiziranje i davanje konteksta</strong> zabilješkama. To znači pregledavati ulazne bilješke, razvrstavati ih i dopunjavati vlastitim komentarima ili sažecima (zašto je nešto bitno, kako planirate to iskoristiti)​. U ovoj fazi odlučujemo gdje će koja informacija trajno “živjeti” u našem sustavu. Obsidian podržava <em>hijerarhijsku organizaciju</em> putem <strong>mapa</strong> odnosno foldera (ako slijedimo <em>arhitektonski pristup</em> planiranja strukture) – npr. možemo usvojiti PARA i napraviti mape “Projekti”, “Područja”, “Resursi”, “Arhiva”, "Predlošci" i/ili "Prilozi" unutar spremišta te nove bilješke razvrstavati prema toj shemi. </p>
+<p>Alternativno ili paralelno, možemo koristiti <strong>oznake (tagove)</strong> i međusobno <strong>povezivanje</strong> umjesto "dubokih" foldera kako bismo označili teme i povezali srodne bilješke. Organizacija uključuje i <strong>standardizaciju formata bilješki</strong>: tu pomažu <strong><em>predlošci</em></strong> (eng. <em>templates</em>) koje ćemo kasnije obraditi kako bi bilješke istog tipa imale istu strukturu. Za rad s literaturom, često se kombinira Zotero i Obsidian – primjerice, nakon čitanja članka u Zotero, možete izvesti svoje označene bilješke u Obsidian (putem plugina poput <em>Mdnotes</em> ili <em>Obsidian Zotero Integration</em>) čime se automatski prenose citati i bilješke. Dobra organizacija znači da svaka informacija ima svoje mjesto i kontekst te da ju je kasnije lako pronaći.</p>
+<h3 id="23-povezivanje-umrezavanje-znanja">2.3. Povezivanje (umrežavanje znanja)</h3>
+<p>Kada imamo pojedinačne uređene bilješke, prava vrijednost PKM sustava dolazi od <strong>povezivanja ideja</strong>. Obsidian i slični “vrtlarski” alati naglašavaju <em>nelinearno povezivanje</em> bilješki – umjesto stroge hijerarhije, stvaramo mrežu odnosa​. U praksi, to znači da unutar jedne bilješke unosite poveznice na druge bilješke gdje god je to relevantno: npr. bilješku o nekom konceptu povezat ćete s bilješkama literaturnih izvora u kojima se taj koncept spominje, povezati je s bilješkom o osobi (znanstveniku) koji ga je razvio, ili tematskom bilješkom šireg područja. 
+Svaka <strong>dvosmjerna poveznica</strong> u Obsidianu stvara odnose vidljive u panelu s <strong>povratnim vezama</strong> (eng. Backlinks) i na <strong>grafu povezanosti</strong>. Time vaše znanje poprima strukturu nalik <em>mreži neurona</em> – informacije se grupiraju u <em>klastere</em> i time nastaju nove kombinacije ideja. Ovakvo "vrtlarski" pristup vođenju bilješki, nasuprot pomno promišljenom arhitektonskom ili bibliotekarskom/arhivističkom pristupu, može dovesti do neočekivanih uvida: npr. Obsidian omogućuje otkrivanje <em>implicitnih poveznica</em> – npr. kroz vizualni <strong>graf</strong> možete primijetiti da dvije teme imaju posredne veze preko treće, što vas potiče da promišljate o njihovoj vezi. U ovoj fazi također koristimo <strong>oznake</strong> (eng. <em>tagove</em>) kao dodatni način povezivanja (npr. sve bilješke povezane uz određeni projekt nose tag #NazivProjekta, što nam omogućuje filtriranje svih stavki tog projekta. </p>
+<blockquote>
+<p>[!NOTE] Faza povezivanja
+Cilj faze povezivanja je izgraditi <strong>znanje veće od zbroja dijelova</strong> – mrežu u kojoj svaka nova bilješka nalazi svoje mjesto među postojećim, čime se postiže bolje razumijevanje i lakše <strong>generiranje novih ideja</strong>.</p>
+</blockquote>
+<h3 id="24-koristenje-primjena-znanja">2.4. Korištenje (primjena znanja)</h3>
+<p>Posljednja faza jest maksimalno (ponovno) <strong>korištenje vlastitog sustava</strong> za produktivan rad – bilo da se radi o pisanju rada, pripremi predavanja, rješavanju problema ili donošenju odluka. Dobro organizirano spremište u Obsidianu trebalo bi vam olakšati <em>pronalaženje prave informacije u pravom trenutku</em>. To uključuje <strong>pretraživanje</strong> po ključnim riječima ili tagovima (Obsidian vrlo dobru integriranu tražilicu unutar spremišta, a postoje i moćni dodaci poput <a href="https://github.com/scambier/obsidian-omnisearch">Omnisearch</a>), korištenje <strong>filtera</strong> (npr. prikaz svih bilješki nastalih tijekom određene godine ili svih bilješki s određenim tagom), odnosno postavljanje naprednih upita pomoću <em>Dataview</em> plugina (o njemu kasnije!). </p>
+<p>Obsidian omogućuje da iz više <strong>"atomskih bilješki"</strong> sastavimo cjelinu: primjerice, ako pišete izvještaj, možete kopirati i kombinirati citate i zabilješke iz različitih literaturnih bilješki koje ste povezali. Faza korištenja znači i <strong>stvaranje novih sadržaja</strong> – npr. na temelju svoje baze znanja lakše ćemo napisati novi članak ili osmisliti projekt. Vaš “prošireni um” služi kao repozitorij na temelju kojeg <strong>postavljamo nove projekte</strong> bez da počinjemo "ab ovo", od nule ili prazne stranice. U ovoj fazi možemo uočiti i <em>"rupe"</em> u znanju (ako nešto niste zabilježili ili povezali), a to pokazuje da je proces <strong>iterativan</strong> tj. da se vraćamo na prethodne faze unosa i organizacije kako bi se sustav kontinuirano poboljšavao. Cilj je da sustav upravljanja znanjem radi za nas – štedi vrijeme, smanjuje informacijsku preopterećenosti i daje  sigurnost da ništa važno neće <strong>“nestati u nekoj od pukotina”</strong>.</p>
+<h2 id="3-stilovi-upravljanja-sustavom-i-voenja-biljeski-i-upravljanja-sustavom-arhitekti-vs-vrtlari">3. Stilovi upravljanja sustavom i vođenja bilješki i upravljanja sustavom: “arhitekti” vs “vrtlari”</h2>
+<p>Ljudi se razlikuju u pristupima organizacije informacija i vođenja bilješki. Pojednostavljeno, postoje dva oprečna arhetipa koja ćemo upoznati i čije pozitivne karakteristike ćemo nastaojati izbalansirati u svom radu:
+- <strong>“Arhitekti”</strong> – vole unaprijed isplanirati strukturu i kategorizaciju. Njihov stil je <em>smišljanje čvrstog plana</em> na temelju kojeg će graditi vlastitu bazu znanja. Tipično koriste kompleksnu strukturu i hijerarhiju mapa/ podmapa, unaprijed definiraju predloške i obrasce za bilješke prije nego što krenu bilježiti sadržaj. Bilješke su organizirane poput pomno promišljene i dizajnirane zgrade s jasnim <strong>kategorijama i strukturom</strong>. Prednost ovog pristupa je što sustav može biti uređen do zadnjeg detalja i vrlo dosljedan – lako je pronaći mjesto za novu bilješku ako je arhitektura dobro osmišljena. Primjerice, “arhitekt” će za bilješku uvijek znati kojoj mapi pripadaju spada i kakav naziv treba imati dokument ili mapa. Manjkavost ovog pristupa je početna sporost, puno vremena ode na planiranje, te kasnija potencijalna nefleksibilnost – ako se pojavi informacija koja ne paše u zadane ladice, arhitekt je ili zanemari ili mora mijenjati nacrt sustava.
+- <strong>“Vrtlari”</strong> – pristup “digitalnog vrtlarenja” podrazumijeva organski rast bilješki i <strong>evoluciju strukture kroz vrijeme</strong>. Umjesto strogih mapa, vrtlar preferira <strong>nelinearne poveznice</strong> i slobodne asocijacije. Bilješke nastaju kao “sadnice” koje se postupno preuređuju i naknadno povezuju - dok sustav raste. Oslanjaju se na <strong>dvojsmjerne poveznice</strong> (eng. bi-directional linking) i često vizualiziraju bilješke kao <strong>mrežu</strong> (graf) ideja​. Ovaj stil manje koristi predloške unaprijed, a više otkriva strukturu <em>usput</em>, poput istraživanja karte u hodu. Prednost ovog pristupa je fleksibilnost i poticanje kreativnih otkrića – povezivanjem naizgled nepovezanih bilješki vrtlar može doći do novih spoznaja. Također, početak je brz: dovoljno je stvoriti novu bilješku bez brige gdje točno pripada, jer će poveznice kasnije odrediti njezin “dom”. Nedostatak je što sustav može postati kaotičan ako se veze i oznake ne održavaju, pa pronalaženje može biti izazovnije bez dodatne organizacije.</p>
+<p>Većina ljudi nije isključivo jedan tip; <strong>kombinacija</strong> pristupa često donosi najbolje rezultate. Primjerice, možete postaviti osnovnu “arhitekturu” sustava (par glavnih mapa ili kategorija), ali unutar njih njegovati “vrtlarenje” uz sustavno povezivanje bilješki. Ili obrnuto – krenuti spontano stvarati bilješke i onda retroaktivno uvesti red kada se ukažu obrasci ili kada ih uvidite. Kroz radionicu ćemo primijeniti oba principa: odredit ćemo određene <strong>mape i predloške (kao arhitekti)</strong> kako bi početni sustav imao okvir, ali ćemo također <strong>povezivati bilješke i poticati "strukturu u nastajanju" (kao vrtlari)</strong>, dok dodajemo sadržaj. Bitno je prepoznati vlastiti stil i sklonosti – npr. ako volite red, dopustite si i malo kaosa kroz povezivanje, a ako volite slobodu, uvesti ćete barem minimalna pravila da vas sustav kasnije “služi”.</p>
+<blockquote>
+<p>[!NOTE] Bibliotekari i arhivisti
+Neki još navode treći arhetip - bibliotekare. Oni se usmjeravaju na arhiviranje i označavanje informacija za buduću upotrebu.</p>
+</blockquote>
+<h2 id="4-uvod-u-obsidian-prvi-koraci">4. Uvod u Obsidian – prvi koraci</h2>
+<p>Sada kada imamo teorijski kontekst, usredotočimo se na <strong>Obsidian</strong>, alat koji ćemo koristiti za implementaciju ovih ideja. Obsidian je <strong>besplatna aplikacija za vođenje bilješki</strong> bazirana na običnim tekstualnim datotekama u Markdown formatu, a dostupna je za Windows, Mac i Linux operacijski sustav. Postoji i mobilna verzija za Android/iOS.</p>
+<p><strong>Instalacija:</strong> Obsidian instaliramo preuzimanjem instalacijskog paketa sa službene web stranice. Instalacija je jednostavna (Next-Next-Finish). Obsidian ne zahtijeva registraciju korisničkog računa – sve bilješke čuvaju se <strong>lokalno</strong> na vašem uređaju, prema potrebi se mogu sinkronizirati na više uređaja pomoću <em>cloud</em> usluga (npr. Google Drive, OneDrive, GitHub i sl.) ili Obsidian Sync, ali to nije nužno za početak. Prednost lokalnog spremanja je privatnost i dugoročna održivost: vaše su bilješke obične tekstualne datoteke koje možete otvoriti bilo kojim uređivačem teksta i čuvati neovisno o aplikaciji. Dakle, nikada vam se neće dogoditi da ostanete "zaključani" u aplikaciji. </p>
+<p><strong>Vault (trezor ili spremište):</strong> Obsidian organizira bilješke u tzv. <strong>vault</strong> – što je jednostavno mapa na vašem disku koja sadrži sve vaše bilješke (i podmape) koje želite imati povezane. Spremište možemo zamisliti kao <strong>registrator</strong> ili arhiv svih naših bilješki za određenu svrhu. Neki korisnici drže sve u jednom spremištu, dok neki odvajaju npr. poslovne od privatnih bilješki u različita spremišta. Za početak, otvorit ćemo <strong>jedno zajedničke spremište</strong> za sve  bilješke s radionice.</p>
+<p><strong>Kreiranje novog spremišta:</strong> Nakon pokretanja Obsidiana, vidjet ćete sučelje koje traži da otvorite ili stvorite spremište. Kliknite “Create new vault”, zatim upišite naziv (npr. “Moj2Um”) i odaberite lokaciju na disku gdje će se kreirati nova prazna mapa. Taj folder sada predstavlja vaš vault i Obsidian će ga otvoriti. S lijeve strane ćete primijetiti <strong>navigacijski panel</strong> (za prikaz svih bilješki i mapa), u sredini veliki prazan prostor za tekst i ostali sadržaj bilješki, a s desne strane za sada vrlo vjerojatno prazan panel (koji će prikazivati <em>backlinks</em>, <em>tagove</em> i sl. kad ih bude).</p>
+<p><strong>Obsidian sučelje:</strong> Kratko ćemo se upoznati s ključnim dijelovima sučelja:
+- <strong>Sidebar (bočna traka):</strong> Lijevi sidebar prikazuje strukturu vašeg spremišta. Tu se nalazi kartica “File Explorer” s popisom foldera i datoteka (bilješki). Odmah je tu i “Search” (pretraga kroz bilješke) i “Tag Pane” (popis svih tagova). Desni sidebar (koji možete otvoriti prema potrebi) prikazivat će <em>backlinkove</em> za trenutno otvorenu bilješku i druge korisne informacije.
+- <strong>Glavni prozor za bilješke:</strong> Ovdje uređujete i pregledavate sadržaj bilješki. Obsidian ima <em>dual-pane</em> način rada: <em>Edit mode</em> (uređivanje) i <em>Preview mode</em> (prikaz formatiranog teksta). Prebacivanje je moguće klikom na ikonicu “škare”/“oko” ili tipkom <code>Ctrl+E</code>. U novijim verzijama postoji i tzv. <em>Live Preview</em> gdje vidite osnovno formatiranje dok pišete (bez potrebe prelaska u zaseban preview).
+- <strong>Ribbon (vrpca s ikonama):</strong> S lijeve strane ekrana nalazi se vertikalni niz ikona (tzv. Ribbon) za brzi pristup naredbama: npr. <strong>New Note</strong> (stvaranje nove bilješke), <strong>Graph view</strong>, <strong>Obsidian Publish</strong> (ako je aktivno), <strong>Settings</strong> itd.
+- <strong>Command Palette:</strong> Pomoću <code>Ctrl+P</code> (ili Cmd+P na Mac) možete otvoriti paletu naredbi gdje unosom teksta brzo pristupate bilo kojoj funkcionalnosti ili naredbi u Obsidianu (korisno za naprednije korištenje, npr. “Open graph view” ili “Insert template”).</p>
+<p>Nakon ovog smo spremni za praktični rad: započet ćemo s unosom sadržaja u naše spremište i usput naučiti korištenje Markdowna - perolakog označiteljskog jezika koji se koristi u Obsidianu.</p>
+<h2 id="5-markdown-perolaki-oznaciteljski-jezik-za-voenje-biljezaka">5. Markdown - perolaki označiteljski jezik za vođenje bilježaka</h2>
+<p>Obsidian koristi <strong>Markdown</strong> – jednostavni označiteljski jezik – za formatiranje tekstualnih bilješki. To znači da svaka bilješka u pozadini postoji kao obična <code>.md</code> tekst datoteka s Markdown sintaksom. Markdown je vrlo intuitivan i jednostavan za naučiti; sastoji se od oznaka unutar teksta koje označavaju naslove, podebljanja, popise itd. Navodimo neke od najčešćih Markdown oznaka koje se koriste pri izradi bilješki:
+- <strong>Naslovi:</strong> Koristite znak <code>#</code> za naslov na početnoj razini. Više <code>######</code> (do 6) daju podnaslove nižih razina.<br />
+<em>Primjer:</em> <code># Naslov 1</code> za glavni naslov, <code>## Podnaslov</code> za podnaslov itd.
+- <strong>Podebljane i kurziv:</strong> Tekst okružen dvostrukim zvjezdicama <code>**</code> se prikazuje <strong>podebljan</strong>, a tekst u jednostrukim zvjezdicama <code>*</code> se prikazuje u <em>kurzivu</em>.<br />
+<em>Primjeri:</em> <code>**važan pojam**</code> prikazuje <strong>važan pojam</strong>, a <code>*istakni ovo*</code> prikazuje <em>istakni ovo</em>.
+- <strong>Popisi:</strong> Za nabrajanje ili nenumerirane popise koristite crticu <code>-</code> ili zvjezdicu <code>*</code> na početku retka. Za numerirane popise koristite brojke s točkom (npr. <code>1.</code>).<br />
+<em>Primjer:</em></p>
+<pre><code class="language-markdown">- Prva stavka  
+- Druga stavka  
+    - Podstavka (uvučena s 4 razmaka ili tab)  
+
+1. Prva stavka
+2. Druga stavka
+    1. Dodatna stavka
+    2. Dodatna stavka
+    3. ...
+</code></pre>
+<ul>
+<li><strong>Linkovi:</strong> Postoje <strong>vanjski ** i </strong>unutarnji linkovi<strong>. Za vanjske linkove koristimo sljedeću sintaksu <code>[tekst](URL)</code>, npr. <code>[Obsidian web](https://obsidian.md)</code>. Unutarnje poveznice na druge bilješke (tzv. </strong>wiki linkovi<em><em>) pišu se u dvostrukim uglatim zagradama <code>[[ ... ]]</code>. Kod upisivanja <code>[[</code> Obsidian će ponuditi </em>autocomplete</em> za postojeće bilješke. Ako upišete naziv koji ne postoji i zatvorite zagradu, kreirat će se nova bilješka s tim nazivom. Ovo je ključno za povezivanje bilješki unutar vaulta.</li>
+<li><strong>Citati/blokovi teksta:</strong> Veći citati ili napomene mogu se istaknuti znakom <code>&gt;</code> na početku retka, čime tekst postaje citatni blok.</li>
+<li><strong>Blokovi koda:</strong> Za umetanje koda ili pseudo-koda, koristite trostruke backtick oznake ``` (tzv. <em>fenced code block</em>). Obsidian podržava i isticanje sintakse za kod, ali za to vam je potreban plugin pod nazivom <em>Code Styler</em> a pronaći ćete ga pod "Community plugins".</li>
+</ul>
+<pre><code class="language-python">Code Styler i prikaz sintakse računalnog koda
+a = 2
+b = 2
+c = a*b
+print(c)
+4
+</code></pre>
+<ul>
+<li><strong>Slike:</strong> Umetanje slike koristeći sintaksu <code>![[naziv-slike.png]]</code> ako je datoteka slike unutar spremišta, ili <code>![Alt tekst](URL_do_slike)</code> za online slike. (Napomena: Obsidian također ima posebnu funkciju <em>drag-and-drop</em> za slike – ako sliku povučete u bilješku, bit će spremljena u spremište i umetnuta u bilješku.)</li>
+<li><strong>Transkluzije</strong>: Obsidian omogućuje "umetanje" ili "ugrađivanje" (engl. "embedding") jedne ili više bilješki unutar druge. Kada se izvorna bilješka ažurira, promjene se automatski odražva u svim bilješkama u koje je uključena. Da bi se cijela bilješka ugradila u drugu, koristimo sljedeću sintaksu: <code>![[Naziv druge bilješke]]</code></li>
+</ul>
+<blockquote>
+<p>[!TIP] Osnovna i napredna Markdown sintaksa
+Ovo su osnovne oznake dovoljne za većinu bilješki. Više informacija o načinima korištenja Markdowna u Obsidianu možete pronaći unutar <a href="https://help.obsidian.md/syntax">Obsidian Help</a>. </p>
+</blockquote>
+<p>Tijekom pisanja u <strong>Edit modu</strong>, tekst će sadržavati ove oznake, a prelaskom u <strong>Preview</strong> vidjet ćete lijepo formatiran tekst (naslovi uočljiviji, popisi poredani, slike prikazane itd.). Uz malo prakse, počet ćete koristiti <em>Live Preview</em> gdje su neke oznake odmah formatirane dok tipkate (Obsidian v1.0+ omogućuje to). Predlažem da odmah isprobate: <strong>stvori novu bilješku</strong> klikom na ikonu “New Note” (ili tipka <code>Ctrl+N</code>), nazovite je primjerice “Markdown vježba” i pokušajte u nju upisati nekoliko gore navedenih elemenata (naslov, podnaslov, podebljanu riječ, popis od par stavki, i jedan wiki link na bilješku koju još niste stvorili, npr. <code>[[Nova bilješka]]</code>). Potom uključite <em>Preview</em> da vidite rezultat formatiranja.</p>
+<h2 id="6-struktura-vaulta-i-organizacija-biljeski-u-obsidianu">6. Struktura vaulta i organizacija bilješki u Obsidianu</h2>
+<p>Sada ćemo postaviti osnovnu <strong>strukturu unutar spremišta</strong> kako bismo isprobali prethodno navedena načela organizacije bilješki (počinjemo kao  “arhitekti”). Ova struktura nije obvezna – Obsidian ne zahtijeva da bilješke budu u posebnim mapama – ali za početak nam može pomoći da napravimo dedicirana mjesta za različite vrste sadržaja. Inicijalnu strukturu možete kasnije uvijek prilagoditi vlastitim potrebama, stilu i očekivanjima od samog sustava.</p>
+<p>Predložena inicijalna struktura vaulta (folderi na root razini):
+- <code>00 Inbox</code> – <em>privremeno spremište</em> za nove bilješke ("hladnjak") ili ulazne informacije koje još niste uredili ili rasporedili. Ovdje možete brzo ubaciti svaku novu ideju, misao ili bilješku koju ćete eventualno kasnije razvrstati.
+- <code>01 Projekti</code> – konkretni projekti ili zadaci na kojima ste aktivni. Unutar ovog foldera možete imati pod-foldere ili bilješke za svaki aktivni projekt. (Npr. jedan za nastavni projekt, jedan za istraživački rad kojeg pišete, itd.)
+- <code>02 Područja</code> – odgovornosti, odnosno teme ili domene od trajnog interesa. Npr. “Metodika nastave”, “Strojno učenje”, “Upravljanje timom” – ovisno čime se kontinuirano bavimo. Unutar toga mogu ići bilješke vezane uz tu domenu.
+- <code>03 Resursi</code> – opći referentni materijali, bilješke koje nisu "strogo" vezane za jedan projekt nego su općekorisne. Tu će recimo ići većina literaturnih bilješki, koncepti, sažeci knjiga, tutorijali, ideje za buduće radove i sl. (osobe koje prakticiraju Zettelkasten pristup vrlo često sve drže u jednom folderu i oslanjaju se na stvaranje poveznica među različitim vrstama bilješki)
+- <code>04 Arhiv</code> – ovdje premještamo bilješke/projekte koje više nisu aktivni. (npr. završene projekte možemo prebaciti ovdje radi čuvanja; održana predavanja možemo također spremiti na ovo mjestu iz kojeg se jednostavno mogu ponovno aktivirati i uključiti u neki aktivni zadatak)
+- <code>Attachments</code> (ili <code>Prilozi</code>) – zasebna mapa gdje će Obsidian po defaultu spremati različite <strong>datoteke</strong> koje dodamo u bilješke (npr. slike, PDF-ovi i sl.). Provjerite u <em>Settings → Files &amp; Links → Attachment folder</em> da je putanja na ovu mapu, kako biste održali spremište organiziranim, odnosno da svu sve slike na jednom mjestu).</p>
+<blockquote>
+<p>[!TIP] Važna napomena
+Ovo je samo jedna od mogućih struktura i načina organizacije "proširenog uma". Neki će preferirati minimalizam (sve bilješke u jednom folderu + tagovi za kategorije), drugi će razviti vrlo detaljnu hijerahiju. Za početak, napravite gore navedene mape (desni klik u File Exploreru → New Folder). Time ćete u maniri "arhitekata"označiti glavne zone unutar spremišta. Nadalje, prilikom izrade konkretnih bilješki, razmislite pripada li u neku od ovih mapa. Ako niste sigurni, ubaciti na "hlađenje" u <code>00 Inbox</code> pa ćete kasnije odlučiti.</p>
+</blockquote>
+<p><strong>Konvencije imenovanja:</strong> Bilješke u Obsidianu su obične datoteke pa je dobro usvojiti i konzistentan način imenovanja:
+- Kraći <strong>naslovi bilješki</strong> koji jasno opisuje sadržaj (npr. “Teorija kognitivnog opterećenja” umjesto cijelog pitanja).
+- Kod literaturnih bilješki u naslov možete staviti npr. prezime autora i godinu: “Novak2021 - Analiza podataka” radi lakšeg pamćenja ili referenciranja.
+- Za vođenje dnevnika (eng. <em>journaling</em>) i dnevne bilješke, Obsidian koristi <strong>Daily notes</strong> plugin koji kreira bilješke nazvane po datumu (YYYY-MM-DD). To je također koristan način vođenja dnevnika rada. Ovdje savjetujem instalaciju <strong>Calendar</strong> plugina koji vizualno prikazuje kalendar i omogućuje vođenje dnevnih, tjednih, mjesečnih, kvartalnih ili godišnjih bilješki.</p>
+<p><strong>Mapa vs. link vs. tag:</strong> Kratko razjašnjenje – ako se pitate treba li nešto biti mapa ili bilješka ili tag:
+- Mape su grube, fizičke podjele i vrlo korisne su za <strong>različite vrste sadržaja</strong> (kao gore Projekti/Resursi itd.). Preporuča se ne stvarati previše duboke hijerarhije mapa za tematske podjele; radije koristite bilješke i tagove za teme. Ne zaboravite, bilješku ili dokument ne možete istovremeno smjestiti u dvije ili više mapi! Možete, ali onda ih duplicirate ili koristite virtualne linkove (eng. <em>shortcuts</em>).
+- Bilješke možete i koristiti za izradu naređenih <em>kategorija</em> ili tzv. <strong>MOC (Map of Content)</strong> – npr. možete imati bilješku “Machine Learning” koja ne sadrži tekst nego popis linkova na sve ostale bilješke, literaturu i podteme vezane za ML. Ovo je često bolja opcija nego mapa jer u MOC bilješku možete dodati kontekst i navesti opis uz svaki link. Zamislite da su MOC zapravo dinimčna verzija <em>TOC</em> (kazala sadržaja, a u ovom slučaju kazala bilješki).
+- Tagovi su brzi način označavanja teme ili statusa (npr. #ideja, #treba-razraditi, #literatura). Tagovi su globalni, ne moraju se nalaziti u nekoj “nadređenoj” bilješci i možete jednoj bilješci dodati više tagova. Kasnije ih možete filtrirati ili vizualizirati. Tagovi su odlični za povezivanja sadržaja unutar kategorija – npr. tag #članak može ići uz sve bilješke koje su sažeci članaka, bez obzira u kojem su folderu.</p>
+<p>Kroz praksu ćemo postupno razviti osjećaj za ono što nam je potrebno – ne brinite ako sada ne možete predvidjeti savršen sustav. Krenite s jednostavnom strukturom i dopustite da se prilagodi vašem stilu bilježenja.</p>
+<h2 id="7-povezivanje-biljeski-linkovi-reference-i-graf">7. Povezivanje bilješki: linkovi, reference i graf</h2>
+<p>Jedna od najvećih snaga Obsidiana je lakoća kojom možete <strong>povezivati bilješke</strong>. Već smo spomenuli sintaksu za unutarnje linkove <code>[[ ... ]]</code>. Sada ćemo to isprobati i objasniti povezane značajke.</p>
+<p><strong>Stvaranje linka na postojeću bilješku:</strong> Otvorite neku bilješku koju ste ranije stvorili (ili napravite novu) i upišite <code>[[</code>pa počnite pisati naziv druge bilješke (ili dio sadržaja). Vidjet ćete da Obsidian nudi <em>auto-complet</em> popisa postojećih naslova dok tipkate. Odaberite željenu bilješku i pritisnite Enter – Obsidian će umetnuti link. U <em>Preview</em> prikazu, taj link je klikabilan i vodi vas na tu bilješku. Ovo je <strong>jednosmjerna veza</strong> stvorena u tekstu <em>A</em> koja vodi na <em>B</em>.</p>
+<p><strong>Backlinks (povratne veze):</strong> Ono što Obsidian radi automatski jest da na odredišnoj bilješci <em>B</em> prikazuje (u desnom sidebaru) da je <em>A</em> povezana s njom. Time dobijemo <strong>dvosmjernu povezanost</strong> – bez potrebe da ručno u bilješci B navodimo A. Panel <em>Backlinks</em> prikazuje sve bilješke koje linkaju na trenutnu, što pomaže da vidimo kontekst: npr. ako imate bilješku o nekom teorijskom pojmu, backlinks će pokazati sve literaturne bilješke gdje se pojavio taj pojam, sve projektne bilješke koje ga referenciraju itd. Tijekom građenja sustava, korisno je povremeno provjeriti backlinks na važnijim bilješkama kako biste eventualno dodali povratni link ako ima smisla (iako nije nužno).</p>
+<p><strong>Izrada nove bilješke putem linka:</strong> Ako u nekoj bilješci upišete <code>[[Novi pojam]]</code> i zatvorite zagrade, stvorit ćete potencijalnu poveznicu prema novoj bilješci. Klikom na takav link Obsidian će odmah stvoriti novu bilješku pod nazivom “Novi pojam”. Ovo je odličan način “vrtlarenja”: dok pišete jednu bilješku, shvatite da bi neki termin trebao svoju bilješku – samo ga stavite u dvostruke zagrade i nastavite dalje, a kasnije ćete popuniti tu novu bilješku sadržajem. Na taj način gradite mrežu <em>in situ</em>.</p>
+<p><strong>Embedanje bilješki:</strong> Još naprednija značajka je da možete uključiti sadržaj jedne bilješke u drugu koristeći sintaksu <code>![[Naziv bilješke]]</code>. To ubacuje dinamički prikaz te bilješke. Ovo je korisno za npr. izradu <em>preglednih bilješki</em> koje sakupljaju više izvora.</p>
+<p><strong>Graf prikaz:</strong> Klikom na ikonicu “Open Graph view” u lijevoj vrpci, otvorit će se <strong>globalni graf</strong> svih vaših bilješki. Svaka bilješka je prikazana kao čvorište (točka), a linkovi kao linije između čvorišta. U početku, s malim brojem bilješki, graf neće izgledati spektakularno, ali kako spremište bude raslo, vidjet ćete mrežu bilješki povezanih u klastere i eventualno neke izolirane točke (tzv. <em>siročad</em> – bilješke bez veza). Graf je koristan vizualni alat za <strong>uvid u cjelinu</strong> vašeg znanja – primjerice, možete identificirati teme s puno poveznica (centroidi) i one koje su osamljene (što može značiti da im trebaju još poveznica ili da nisu integrirane u vaš sustav). Obsidian omogućuje filtriranje grafa (po tagu, po dijelu naziva, po stupnju povezanosti, dijeljenim prilozima) i prikaz <strong>lokalnog grafa</strong> za pojedinu bilješku (desni klik na bilješku → Open local graph), gdje vidite samo njene neposredne veze i veze u 1-2 razine udaljenosti. Lokalni graf je odlično pomagalo kad želite sagledati <strong>kontekst</strong> neke bilješke na vizualan način – npr. vidjeti sve druge koncepte povezane s njom. </p>
+<blockquote>
+<p>[!NOTE] Ne precjenjujte vrijednost grafa
+Graf ne treba ni precjenjivati – sam po sebi “mreža točkica” neće odraditi magiju povezivanja umjesto vas, ali je dobar <strong>orijentir</strong> i može vas potaknuti da povezujete više (nitko ne voli vidjeti previše "siročadi").</p>
+</blockquote>
+<p><strong>Reference na literaturu:</strong> Osim internih linkova, u bilješkama ćete često koristimo reference koji upućuju na literaturu. Ne postoji jedinstven standard unutar Obsidiana, ali preporučujemo koristiti <strong>Zotero</strong> za upravljanje formalnim citatima. Na primjer, u tekst bilješke možete zalijepiti (copy&amp;paste iz Zotero) <em>APA citat</em> ili ključ (ako koristite Better BibTex plugin za Zotero koji generira citekey). Alternativno, neki Obsidian korisnici koriste [[Zotero Integration plugin]] koji omogućuje pretragu Zotero bibliografije direktno iz Obsidiana i automatsko umetanje citata ili bibliografskih zapisa. Za početak, možete ručno navesti literaturu na dnu bilješke ili koristiti podnožne bilješke u kombinaciji sa popisom izvora. Ključ je konzistentnost – npr. odredite da sve literaturne bilješke sadrže na dnu sekciju “Literatura” s navedenim punim referencama onoga što je citirano u toj bilješci. To osigurava da i izvan Obsidiana (npr. ako nekome šaljete tu bilješku) reference nisu izgubljene.</p>
+<p>Ukratko, <strong>umrežavanje bilješki</strong> srce je PKM-a u Obsidianu. Povezujte obilato, koristite graf za uvide, i ne zaboravite povremeno proći kroz nove bilješke i povezati ih gdje smisleno. Vaš cilj je da s vremenom svaka nova informacija <strong>nađe svoje mjesto</strong> u mreži postojećeg znanja.</p>
+<h2 id="8-koristenje-spremista-pretrazivanje-filtriranje-i-izvlacenje-dodane-vrijednosti">8. Korištenje spremišta: pretraživanje, filtriranje i izvlačenje (dodane) vrijednosti</h2>
+<p>S vremenom ćete u svom vaultu imati stotine bilješki. Kako onda <strong>pronaći ono što vam treba</strong>? Obsidian ima nekoliko alata koji olakšavaju korištenje prikupljenog znanja:
+- <strong>Brza pretraga (Quick Switcher):</strong> Tipkovni prečac <code>Ctrl+O</code> otvara brzu tražilicu bilješki po naslovu. Upisivanjem dijela naslova dobit ćete popis podudarnih bilješki – odlično za brzi prelazak na određenu bilješke (npr. kucajte “notes” i odmah idite na “Note Taking in Markdown” bilješku).
+- <strong>Globalna pretraga sadržaja:</strong> U lijevom sidebaru, klikom na <em>Search</em> (povećalo), možete upisati bilo koji pojam i Obsidian će pretražiti <strong>sav tekst unutar bilješki</strong>. Podržava regularne izraze i logičke operatore, ali i jednostavan upit “riječ1 riječ2” koji pronalazi bilješke gdje se pojavljuju obje riječi kao fraza. Rezultati se prikazuju kao popis ulomaka. Ova pretraga je srž korištenja – npr. želite li naći gdje ste spomenuli “Bloomova taksonomija”, ne morate se sjećati gdje, dovoljno je pretražiti pojam.
+- <strong>Filtriranje po tagovima:</strong> Ako dosljedno koristite <strong>tagove</strong> (oznake) za ključne kategorije, u tag panelu (lijevi ili desni sidebar, ovisno gdje ih smjestite), klik na određeni tag prikazat će sve bilješke u kojima je zastupljen. Tako možete npr. vidjeti sve bilješke označene s <code>#literatura</code> (svi sažeci članaka), <code>#ideja</code>(sve vaše vlastite ideje za projekte), <code>#todo</code>(ako označavate bilješke koje još treba dovršiti), <code>#filmovi</code>, <code>#serije</code>, itd.
+- <strong>Pregled po datumu:</strong> Ako koristite dnevne bilješke (Daily notes plugin) ili  oznake datuma u bilješkama, onda ih možete kronološki pregledati. Tu pomaže <strong>Calendar plugin</strong> (o kojem slijedi) koji kalendarski vizualizira dnevne bilješke.</p>
+<p><strong>Dataview upiti:</strong> Za naprednije korisnike, <em>Dataview</em> plugin omogućuje upravljanje bilješkama kao <strong>bazom podataka</strong>, odnosno omogućuje <strong>postavljane upita</strong>. Upit možete upisati u bilo koju bilješku, npr. </p>
+<pre><code class="language-dataview">LIST FROM #literatura AND &quot;02 Područja/Obrazovanje&quot;
+</code></pre>
+<p>Ovaj upit bi izlistao sve bilješke koje imaju tag <code>#literatura</code> i nalaze se u folderu <code>02 Područja/Obrazovanje</code>. Dataview može dohvatit i metapodatke strukturirane kao <em>YAML</em> (npr. naslov, autor, datum, ...) te izraditi tablični prikaz. Na primjer, ako svaka bilješka knjige ima polje <code>godina:</code> i <code>autor:</code> u svojstvima (eng. <em>Properties</em>), možete npr. generirati tablicu svih knjiga sortirane po godini. Ovo je moćan način korištenja zabilježenog znanja – pogotovo za znanstvenike – jer praktički imate upitni jezik koji omogućuje upravljanje vlastitim bilješkama. No, Dataview zahtijeva osnovno programersko razmišljanje i prelazi okvire uvodne radionice, pa ćemo ga samo demonstrirati gotovim primjerom.</p>
+<p>Primjer jednostavnog Dataview upita (demo, nije nužno odmah isprobati):</p>
+<pre><code class="language-dataview">TABLE Autor, Godina 
+FROM &quot;03 Resursi/Literatura&quot; 
+WHERE autor AND godina 
+SORT Year DESC
+</code></pre>
+<p>Ovaj upit bi, primjerice, prikazao tablicu svih bilješki u folderu Literatura s popunjenim poljima <code>autor</code> i <code>godina</code>, sortiranu po godini, silazno. </p>
+<p><strong>Izvoz i dijeljenje:</strong> Jednom kad iz Obsidiana trebate svoje bilješke upotrijebiti izvan njega (npr. ubaciti u Word dokument ili podijeliti s kolegama), imate nekoliko opcija na raspolaganju. Možete jednostavno kopirati tekst iz Preview moda (zadržat će formatiranje) ili pak koristiti <em>Export to PDF</em>. Postoje i plugi za izvoz u razne formate ili integracija s <strong>Pandoc</strong> za pretvorbu u DOCX/HTML. Važno je da su vaše bilješke u otvorenom formatu pa ih se uvijek može konvertirati u ciljni format po potrebi.</p>
+<p>Cilj je da korištenjem ovih alata <em>imate povjerenja</em> u svoj sustav – znate da ćete brzo naći informaciju i da ono što jednom zapišete neće biti izgubljeno u kaosu. Tada bilježenje prestaje biti teret, a postaje oslonac vašem radu: možete se fokusirati na <strong>kreiranje</strong> (članaka, predavanja, projekata), dok Obsidian drži vaš prikupljeni i strukturirani “materijal” spremnim za upotrebu.</p>
+<h2 id="9-predlosci-eng-templates-konzistentnost-i-veca-ucinkovitost">9. Predlošci (eng. Templates) – konzistentnost i veća učinkovitost</h2>
+<p>Stvaranje iznova novih, ali struktuturom sličnih bilježaka može biti naporan i zamoran zadatak. Baši kao i ručno osiguravanje konzistentnosti vašega sustava. Tu na scenu stupaju <strong>predlošci</strong>. Obsidian ima ugrađeni <em>Core Plugin</em> nazvan <strong>Templates</strong> koji omogućuje da umetnete sadržaj u unaprijed pripremljeni predložak nove bilješke. Predlošci su ništa drugo do Markdown datoteke koje sadrže osnovne elemente i kostur bilješke koji želite stalno ponavljati. Predlošci mogu sadržavati statički tekst, pitanja kao smjernice što popuniti, pa čak i posebne varijable za datum, naziv bilješke i slično (npr. <code>{{date}}</code>, <code>{{title}}</code>).</p>
+<p><strong>Postavljanje Templates plugina:</strong> Otvorite <em>Settings → Core Plugins</em> i pronađite “Templates”. Uključite ga (ako već nije). Sada u <em>Settings → Templates</em> postavite <em>Template folder location</em> na mapu u kojem ćete držati vaše predloške. Preporuka je da u korijenskom direktoriju vašeg spremišta napravite novu mapu, npr. <code>Predlošci</code>, <code>03 Resursi/Predlošci</code> ili pak napravite zasebnu mapu <code>00 Moj sustav</code> u kojoj ćete zabilježiti sve procese vezane za održavanje vašeg "proširenog uma". </p>
+<p><strong>Kreiranje predloška:</strong> Predlošci se pišu kao obične bilješke. Npr. kreirajmo predložak za <strong>bilješku o knjizi</strong>. U folderu <code>Templates</code> napravite novu bilješku “Predložak - Knjiga”. U nju stavite okvirnu strukturu, recimo:</p>
+<pre><code class="language-markdown">---
+datum_izrade: {{date:YYYY-MM-DD}}{{time:HH:mm}}
+datum_izmjene: {{date}}{{time}}
+vrsta: knjige
+kategorija:
+godina: 
+autor: 
+URL:
+---
+
+# {{title}}
+
+- Tag: #knjige
+
+## Sažetak
+
+*(Ovdje napišite kratki sažetak knjige u nekoliko rečenica.)*
+
+## Ključne teze
+
+- 
+
+## Bitni citati
+
+&gt; 
+
+## Vlastiti osvrt
+
+- Povezano s idejama/bilješkama: 
+- Primjena spoznaja:
+</code></pre>
+<p>U predlošku koristimo <code>{{title}}</code> koji će Obsidian prilikom umetanja zamijeniti s naslovom nove bilješke (npr. naslov knjige). Ostavili smo sekcije za autora, godinu itd. koje ćemo ručno popuniti. Spremite taj predložak.</p>
+<p>Slično možemo napraviti <strong>predložak za članke</strong> ili “literaturnu bilješku”:</p>
+<pre><code class="language-markdown"># {{title}}
+
+- **Autor(i), časopis, godina:** 
+- **DOI/link:** 
+
+## Kontekst i cilj rada
+
+*(Kratko: čime se bavi rad, koji problem rješava.)*
+
+## Bilješke iz literature
+
+- 
+
+## Zaključci autora
+
+- 
+
+## Moje bilješke / ideje
+
+- Povezano s: 
+- Daljnja pitanja:
+</code></pre>
+<p>Isto tako vrlo korisni mogu biti predlošci za <strong>bilješke o osobi</strong> (npr. istaknuti znanstvenik kojeg pratite):</p>
+<pre><code class="language-markdown"># {{title}} 
+
+- **Uloga/titula:** 
+- **Institucija:** 
+- **Glavna područja:** 
+
+## Biografija (sažetak)
+
+...
+
+## Važni radovi / doprinosi
+- [[Naziv rada 1]]
+- [[Naziv rada 2]]
+
+## Povezane osobe/ideje
+- 
+</code></pre>
+<p>Ili predložak za <strong>bilješku s sastanka</strong>:</p>
+<pre><code class="language-markdown"># {{title}} (Sastanak)
+
+- **Datum:** {{date}}
+- **Sudionici:** 
+
+## Dnevni red
+- 
+
+## Bilješke sa sastanka
+- 
+
+## Zaključci i zadaci
+- [ ] Task 1 @participant1 
+- [ ] Task 2 @participant2 
+</code></pre>
+<p>U zadnjem dijelu predloška demonstriramo i zadatke – objašnjeno u nastavku – i korištenje <code>@participant</code> za označiti odgovorne osobe.</p>
+<p>Jednom kad imate definiran predložak, možete ga <strong>umetnuti</strong> u novu bilješku: otvorite novu bilješku (ili postojeću praznu), pritisnite <code>Ctrl+P</code> i upišite “Templates: Insert template”. Odaberite s popisa “TPL - Knjiga” (ili koji želite) i Obsidian će ubaciti sav sadržaj tog predloška. Sada samo zamijenite zamišljene elemente sa stvarnim sadržajem. U par sekundi dobili ste lijepo strukturiranu bilješku bez da ste je ručno formatirali. <strong>Templates plugin</strong> dakle pomaže <strong>standardizirati bilješke</strong> određene vrste​ i <strong>automatizirati korake koji se ponavljaju</strong>, poput dodavanja datuma, naslova i sl.</p>
+<p>Osim core <em>Templates</em> plugina, postoji i moćniji <em>community</em> plugin <strong>Templater</strong> koji omogućuje skriptiranje (koristeći JavaScript kod unutar predloška za vrlo napredne automatizacije – npr. da automatski povuče trenutni datum i vrijeme, izračuna nešto, upita korisnika za input i sl.). Za početak vam <em>Templater</em> nije nužan – osnovni predlošci su dovoljni. No, imajte na umu da kasnije, ako vam zatreba pametnija logika u predlošcima, možete isprobati i <em>Templater</em>.</p>
+<p><strong>Ideje za predloške:</strong> osim navedenih (knjiga, članak, osoba, sastanak), korisni mogu biti predlošci za:
+- <strong>Dnevnu bilješku</strong> (ako prakticirate vođenje dnevnika s pitanjima za samo-refleksiju).
+- <strong>Projekt</strong> – kad pokrećete novi projekt, da stvorite bilješku s osnovnim informacijama (cilj, rokovi, popis sudionika, itd.).
+- <strong>Istraživačko izvješće</strong> – predložak za eksperiment ili bilješku s laboratorijskim zapažanjima, ako je primjenjivo.
+- <strong>Predavanje</strong> – za nastavnike, predložak koji sadrži polja: predmet, datum, tema sata, bilješke o izvedbi, što popraviti idući put, ispitna pitanja, ...
+- <strong>Ideja</strong> – kada zapisujete novu ideju za projekt/istraživanje, predložak s poljima: opis ideje, problem koji rješava, potrebni resursi, potencijalni izazovi, naredni koraci.</p>
+<p>Smisao predložaka je ubrzati rad i osigurati da ne zaboravite zabilježiti neki važan aspekt, jer će vas predložak podsjetiti. Stoga, predloške gradite prema vlastitom procesu – ako vidite da se u nekim bilješkama često pojavljuje određeni "obrazac", ubacite ga u predložak.</p>
+<h2 id="10-plugins-funkcionalni-dodaci-sustavu-npr-tasks-calendar-dataview">10. Plugins - funkcionalni dodaci sustavu (npr. Tasks, Calendar, Dataview)</h2>
+<p>Osim već spomenutog Templates dodatka, Obsidianova zajednica razvila je stotine <strong>community dodataka</strong> koji proširuju mogućnosti aplikacije. Instalacija plugina vrši se kroz <em>Settings → Community plugins → Browse</em>, gdje možete pretraživati i jednim klikom instalirati željeni plugin. Ovdje ćemo istaknuti tri korisna dodatka posebno usmjerena na povećanje produktivnosti i učinkovitosti rada:
+- <strong>Tasks plugin:</strong> Omogućuje napredno upravljanje zadacima unutar Obsidiana. Iako u običnoj Markdown bilješci možete zapisati <em>checklistu</em> zadataka (npr. <code>- [ ] Napisati sažetak poglavlja</code>), Tasks plugin dodaje mogućnost da takve zadatke <strong>pratite globalno</strong> kroz upite. Tasks plugin podržava dodavanje datuma dospijeća, prioriteta, ponavljajućih zadataka i dr. U praksi, možete u bilo kojoj bilješci kreirati zadatak koristeći sintaksu <code>- [ ]</code> (neodrađen) ili <code>- [x]</code>(odrađen). Tasks plugin potom omogućuje da napravite <strong>pregled svih otvorenih zadataka</strong> u vaultu ili po kriterijima. Primjerice, možete imati bilješku “To-Do” u koju ubacite upit:</p>
+<pre><code class="language-markdown">```tasks
+    not done
+    ```
+
+koji će automatski prikazati listu svih nedovršenih zadataka u cijelom spremištu. Možete filtrirati i po tagovima, datumu itd., npr.
+
+```tasks
+not done
+due tomorrow
+</code></pre>
+<p>za sve zadatke koji su nedospjeli do sutra. Time Obsidian postaje i vaš sustav za <em>GTD</em> (<em>Get your things done</em>). Ako uključite rok u tekst zadatka, recimo <code>- [ ] Napraviti analizu podataka ^2025-04-30</code>, plugin će prepoznati datum. Tu je i <strong>Task Calendar integracija</strong> ako želite vizualni prikaz. Ukratko, Tasks plugin prilično moćno nadograđuje obične checkboxe te je koristan ako želite integrirati svoje <em>to-do</em> liste u sustav znanja umjesto da budu odvojene. </p>
+<ul>
+<li><strong>Calendar plugin:</strong> Izradio ga je Liam Cain i on dodaje jednostavni kalendar u <em>sidebar</em> pomoću kojeg možete <strong>brzo otvarati dnevne bilješke</strong> po datumu​. Svaki datum u kalendaru predstavlja bilješku (obično u određenoj mapi, npr. <code>Daily</code>). Klikom na datum koji nema bilješku, kreirat će se prazna dnevna bilješka, koristeći predložak ako ste ga definirali za dnevne zapise. Ovo je korisno za vođenje dnevnika rada ili bilježenje kronoloških događaja. Primjer korištenja: svaki dan kad dođete na posao, otvorite dnevnu bilješku za taj dan kroz kalendar i u nju zapisujete ad-hoc bilješke, sastanke, zadatke koje ste odradili. Kasnije možete pretraživati po datumu ili jednostavno listati unatrag kroz kalendar. Ovaj plugin je u suštini poboljšanje sučelja – ne radi ništa što ne bi bilo moguće ručno, ali čini <strong>snalaženje u vremenskoj dimenziji</strong> puno praktičnijim.</li>
+<li><strong>Dataview plugin:</strong> Već smo ga spomenuli – to je “švicarski nož” za <em>upite i prikaze podataka</em> u vašim bilješkama. Tehnički, Dataview stvara <strong>kazalo vaših bilješki</strong> i omogućuje da pisanim <strong>upitnim jezikom</strong> dohvati one koje ispunjavaju uvjete te prikaže <a href="https://blacksmithgu.github.io/obsidian-dataview/#:~:text=Dataview%20,with%20the%20Dataview%20Query%20Language">određena polja</a>. Može generirati popise, tablice, kalendarske prikaze pa čak i grafove. Primjena: recimo da vodite evidenciju pročitanih radova – svaka bilješka rada ima tag <code>#knjige</code> i polje <code>“Status: Pročitano/Nepročitano”</code>. Pomoću Dataview, možete napraviti upit: “Prikaži sve bilješke koje imaju <code>#knjige</code> gdje je <code>Status = Nepročitano”</code> – dobit ćete popis knjiga koje ste planirali pročitati a niste stigli. Ili, želite popis svih sastanaka s određenom osobom – ako svaka bilješka sastanka ima liniju <code>Osobe: [[Ime Prezime]]</code>, možete ispisati sve bilješke koje u polju “Osobe” sadrže tu osobu. Dataview zahtijeva malo učenja, ali <em>nije potrebno kodirati</em> u klasičnom smislu – ima svoj jednostavan jezik koji se piše unutar posebnih oznaka <code>dataview</code>. Na ovoj radionici nećemo detaljno ulaziti u sintaksu, ali demonstrirat ćemo par praktičnih primjera. Dobra vijest: mnogo primjera i recepata već postoji online (Zajednica dijeli Dataview <em>snippete</em> za razne potrebe), pa se često svodi na copy-paste i prilagodbu. Za one koji vole strukturu, Dataview je odličan jer spaja “vrtlarenje” i “arhitekturu” – možete slobodno bilježiti, a onda retrospektivno izvući strukturu uz pomoć ciljanih upita.</li>
+</ul>
+<p><strong>Instalacija community plugina:</strong> Da biste instalirali gore spomenute:
+- Otvorite <em>Settings → Community Plugins</em>. Upozorenje “Safe mode” će biti uključeno – to je Obsidianova zaštita da ne instalirate zlonamjerni plugin. Možete ga isključiti (Obsidian će vas pitati potvrdu).
+- Kliknite <em>Browse</em> i u tražilicu upišite “Tasks”. Trebao bi se pojaviti “<em>Tasks</em>” plugin by Liam Cain. Kliknite <em>Install</em>, pa <em>Enable</em>.
+- Ponovite za “Calendar” (autor također Liam Cain) i “Dataview” (autor Michael Brenan, aka blacksmithgu).
+- Nakon instalacije, u glavnom sučelju vidjet ćete nove opcije: npr. za Calendar – pojavit će se kalendar ikonica u desnom sidebaru, za Tasks – ništa vizualno dok ne počnete pisati upite (ali u Command Paletti postoji naredba <em>Tasks: Create or edit</em>), za Dataview – također se koristi kroz <em>queryje</em> u bilješkama.</p>
+<blockquote>
+<p>[!TIP] Koristite provjerene plugine
+Uvijek koristite provjerene funkcionalne dodatke sustavu s velikim brojem preuzimanja ili one koje preporuča zajednica. Tri navedena su vrlo popularna i pouzdana. Dodaci mogu imati vlastite postavke – npr. za Tasks možete podesiti oznaku koja označava globalni task filter, <em>default</em> je none ili <code>#task</code> – preporuka je ostaviti zadani bez filtera da "lovi" sve zadatke.</p>
+</blockquote>
+<p>Zasad je dovoljno znati što vam dodaci omogućuju. U idućem dijelu primijenit ćemo neke od njih u praktičnoj vježbi.</p>
+<h2 id="11-prakticna-vjezba-izrada-biljeske-za-pregled-literature">11. Praktična vježba: izrada bilješke za pregled literature</h2>
+<p>U ovoj vježbi proći ćemo cijeli proces, od unosa informacije do organizacije, povezivanja i korištenja – sve na konkretnom primjeru <strong>literaturne bilješke</strong>. Cilj je simulirati kako biste u svom radu obradili jedan znanstveni članak i uklopili ga u svoj sustav .</p>
+<p><strong>Scenarij:</strong> Zamislite da ste upravo pročitali znanstveni članak koji želite sačuvati i zabilježiti bitne informacije, povezati s drugim idejama i dodati u pregled literature za svoj trenutni projekt.</p>
+<p><em>KORAK 1: Unos u Zotero.</em> Prije radionice instalirali smo Zotero i odgovarajući <em>browser connector</em>. Pronađite online PDF ili bibliografski zapis tog članka (primjerice na Google Scholar ili na stranici izdavača) i kliknite Zotero ikonicu u pregledniku. Time će se članak s metapodacima spremiti u vašu Zotero knjižnicu (u folder Recents ili neki projektni folder, po želji). Zotero će preuzeti i PDF ako je dostupan. Otvorite Zotero i provjerite zapis – trebali biste vidjeti autora, naslov, godinu i sl. (ako nemate Zotero, pretpostavimo da ručno imate referencu u nekom formatu.)</p>
+<p><em>KORAK 2: Čitanje i anotacije.</em> U Zotero možete otvoriti PDF u ugrađenom čitaču i označavati <em>highlightom</em> ključne rečenice, te pisati <strong>bilješke uz odlomke</strong>. Prođite kroz rad i istaknite par važnih točaka, te dodajte svoje kratke komentare. Nakon čitanja, iz tih se istaknutih dijelova može automatski generirati <em>Zotero Note</em> koja sadrži sve highlightove i bilješke, uz citat i broj stranice.</p>
+<p><em>KORAK 3: Izvoz bilješke u Obsidian.</em> Postoji više metoda:
+- <strong>Copy-Paste:</strong> Najjednostavnije, otvorite bilješku s citatima u Zotero, kopirajte tekst i zalijepite ga u novu bilješku u Obsidianu. Formatiranje će ostati <code>&gt;</code>, ali neće imati baš lijep Markdown izgled. Možete ručno očistiti ili ostaviti tako.
+- <strong>MDNotes plugin (Zotero):</strong> Ako ste prethodno instalirali Zotero plugin <em>Mdnotes</em>, možete desnim klikom na referencu generirati Markdown datoteku s bilješkama. Taj .md file zatim stavite u Obsidian (npr. u <code>03 Resursi/Literatura</code>). Mdnotes je fleksibilan i može se prilagoditi predlošcima, no zahtijeva malo podešavanja – recimo da smo ga konfigurirali prema našem predlošku za članke.
+- <strong>Obsidian Zotero Integration:</strong> Ako ste instalirali <em>obsidian-zotero-integration</em> plugin (koristi BetterBibTeX), možete unutar Obsidiana pokrenuti naredbu <em>Zotero: Import Paper</em> i odabrati citat. Plugin će onda uz pomoć predloška automatski stvoriti bilješku sa metapodacima i označenim dijelovima teksta. Za ovu radionicu, pretpostavit ćemo da to nemamo podešeno (jer treba prethodno u Zotero dodati BetterBibTeX i postavke).</p>
+<p>Dakle, <strong>rezultat koraka 3</strong>: Imamo u Obsidianu novu bilješku, nazovimo je “Autor2022 - Kratki naziv rada” smještenu u folder <code>03 Resursi/Literatura</code>. U njoj su već navedeni osnovni metapodaci i možda već ubačeni citati. Ako ste išli ručno, barem kopirajte naslov, autore, godinu i dodajte DOI/link na članak na vrh bilješke.</p>
+<p><em>KORAK 4: Strukturiranje bilješke uz pomoć predloška.</em> Sada primijenimo <strong>predložak za članke</strong> koji smo ranije napravili. Otvorite bilješku i koristite <em>Templates: Insert template</em> → “Predložak - Članak”. To će dodati sekcije Sažetak, Bilješke, Zaključci itd. Možda već imate neke dijelove popunjene (citati). Organizirajte bilješku:
+- Upišite 1-2 rečenice sažetka rada svojim riječima.
+- Pod “Bilješke iz literature” umetnite citate koje ste prenijeli (svaki u listu <code>- ...</code> ili kao <code>&gt; citat</code> blok, kako vam više odgovara), te uz svaki dodajte eventualno <strong>[Komentar]</strong> svoj – npr. <code>&gt; "citat iz teksta" (Autor 2022)\n - Moj komentar: ...</code>.
+- Pod “Zaključci autora” navedite što autori smatraju glavnim ishodom (možete i bulletima).  <br />
+- Pod “Moje bilješke / ideje” napišite bilo kakvu vlastitu misao: npr. kako biste mogli primijeniti ovo u svom radu, ili pitanje koje ostaje otvoreno, ili poveznicu s drugim radom.    </p>
+<p><em>KORAK 5: Povezivanje s drugim bilješkama.</em> Sada je trenutak da bilješku ubacimo u naš sustav povezivanjem:
+- Ako u sustavu imate bilješku za <strong>autora</strong> ovog rada (npr. ako je to poznati istraživač kojeg pratite), dodajte link na tog autora: npr. “- <strong>Autor:</strong> [[Ime Prezime]]” umjesto samo teksta. Ako bilješka ne postoji, možete je kreirati upravo ovako (to smo radili u Zettelkasten stilu – svaka osoba može imati svoju bilješku).
+- Ako rad pokriva neku temu za koju imate <strong>tematsku bilješku</strong> ili MOC, dodajte u “Povezano s:” te teme. Npr. “Povezano s: [[Strojno učenje]]; [[Obrazovanje]]” (ovisno o sadržaju rada).
+- Dodajte relevantne <strong>tagove:</strong> Recimo da sve literaturne bilješke označavate s <code>#literatura</code>. Možete dodati i specifičniji tag, npr. <code>#eksperimenti</code> ako je rad eksperimentalan ili <code>#studijeSlučaja</code>, itd. Tagove stavljajte gdje god – često ih ljudi stave na vrh ili dno bilješke radi preglednosti.
+- Ako je rad dio nekog vašeg <strong>projekta</strong>, svakako to navedite. Npr. ako imate bilješku projekta ili tag, uključite je. Primjer: u “Moje bilješke” napišete “Ovaj rad će biti koristan za [[Projekt XYZ]] u dijelu analize podataka.” To sada stvara vezu prema bilješci projekta.
+- Povežite <em>navode</em> ako imate. Primjer: ako bilješka spominje neki drugi rad koji ste također obradili, možete napraviti link na bilješku tog drugog rada. Time gradite mrežu literature (to je kao mini zettelkasten unutar literature).</p>
+<p><em>KORAK 6: Korištenje – pregled literature.</em> Sada zamislimo da trebate napisati pregled literature za svoj rad. Kako vam Obsidian tu pomaže?
+- <strong>Kroz tag <code>#literatura</code>:</strong> klikom ili pretragom tog taga, dobit ćete sve bilješke članaka koje ste tako označili. 
+- <strong>Kroz projektni MOC:</strong> možda imate bilješku “Literatura za [Projekt]” gdje ručno navodite relevantne radove s kratkim bilješkama. Ako ne, možete je sad brzo stvoriti: npr. bilješka “Pregled literature - Tema X”. U njoj nabrojite linkove na 3-4 članka (uključujući ovaj) s jednom rečenicom opisa ispod svakog. Ovdje vidite <strong>snagu predložaka i bilješki</strong> – jer sada iz svake pojedine bilješke članka možete kopirati sažetak i nalijepiti u ovaj pregled, ili čak iskoristiti !embed da prikažete dio bilješke.
+- <strong>Dataview primjer:</strong> Ako ste svakoj literaturnoj bilješci dodali polja “Godina:” i “Ključne_riječi:” u YAML zaglavlju, mogli biste upitom automatski generirati popis radova po godinama ili temama. Primjer: sortirati literaturu kronološki ili grupirati po ključnim riječima. To može pomoći da uočite trendove ili praznine dok pišete pregled.
+- <strong>Pisanje osvrta:</strong> Kada doista pišete dokument (izvan Obsidiana, npr. u Wordu), sada imate sve relevantne bilješke na jednom mjestu. Možete ih čitati paralelno (Obsidian podržava <em>split pane</em> pa otvorite više bilješki odjednom) i sastavljati svoj tekst. Ako koristite citatne ključeve (npr. citekey) u Obsidian bilješkama, možete ih copy-paste u Word i kasnije preko Zotero plugin napraviti formatiranje citata. Alternativno, neki preferiraju pisati cijeli <em>draft</em> u Obsidianu i onda pretvoriti u Word – to je isto izvedivo uz pomoć Pandoc alata.</p>
+<p>Time smo prošli proces: od unosa (Zotero) preko organizacije (predložak, sažetak), povezivanja (linkovi i tagovi) do korištenja (pregled literature za pisanje). Svatko može prilagoditi detalje svom vlastitom stilu i načinu rada, ali ključno je vidjeti kako <strong>Obsidian služi kao centrala</strong>, mjesto gdje gdje sve ulazi i odakle sve izlazi u druge sustave. </p>
+<h2 id="12-ostali-primjeri-i-vjezbe-za-samostalno-istrazivanje">12. Ostali primjeri i vježbe za samostalno istraživanje</h2>
+<p>Zbog ograničenja vremena, neke stvari ćemo samo ukratko spomenuti, a vi ih možete isprobati nakon radionice:
+- <strong>Digitalni dnevnik (journaling):</strong> Isprobajte <em>Daily Notes</em> jezgreni plugin uz <em>Calendar</em> – vodite dnevnik istraživanja ili osobnih refleksija. Kroz tjedan dana vidjet ćete kako dnevne bilješke uz tagove (npr. #učinjeno, #naučeno) mogu dati lijep pregled aktivnosti.
+- <strong>Praćenje zadataka u Obsidianu:</strong> Ako želite integrirati to-do liste, počnite označavati zadatke <em>checkboxovima</em> i instalirajte <em>Tasks</em> plugin. Napravite posebnu bilješku “Zadaci” gdje ćete upitom <code>not done</code> pratiti sve otvoreno. Isprobajte dodati datume u zadatke, npr. <code>- [ ] Pripremiti ispitne zadatke ^2023-05-15</code> i vidjeti kako ih <em>Tasks</em> filtrira (u dokumentaciji plugin ima sintaksu za due (dospijeće) – poput <code>2023-05-15</code>).
+- <strong>Razrada ideje metodom Zettelkasten:</strong> Ako vas zanima dublje ući u Zettelkasten, pokušajte sljedeće: odaberite neku apstraktnu ideju koju razrađujete (npr. “Vrednovanje nastave”) i napravite bilješku s tom idejom. Zatim svaki izvor ili argument koji imate na tu temu stavite kao posebnu bilješku i povežite natrag na glavnu. Cilj je razbiti složenu temu na male (atomske) ali povezane dijelove. Vidjet ćete da takva mreža olakšava pisanje radova jer praktički imate kostur misli već strukturiran.
+- <strong>Koristite Obsidian mobilnu aplikaciju:</strong> Za hvatanje ideja u hodu, instalirajte Obsidian na mobitel i sinkronizirajte sustav (ako ne koristite Obsidian Sync, može preko Dropbox/OneDrive git ili SimpleNote integracija). Tako ćete imati svoj “prošireni um” uvijek imti pri ruci i moći dodati misao ili pogledati bilješku gdje god se nalazili.
+- <strong>Sigurnosne kopije:</strong> Imajte na umu – iako su markdown datoteke trajne, <strong>sigurnosno kopiranje je obvezno</strong>. Integrirajte sustav s nekim <em>cloudom</em> rješenjem ili koristite <em>git</em> za verzioniranje, kako biste zaštitili svoj sadržaj (npr. postavite da se sustav mapa sinkronizira s Google Drive.)</p>
+<h2 id="13-zakljucak-i-iduci-koraci">13. Zaključak i idući koraci</h2>
+<p>Za kraj, sažmimo što smo danas naučili:
+- Postavili smo <strong>osobni digitalni sustav bilješki</strong> u Obsidianu koji se temelji na ideji eksternalizacije znanja (prošireni um).
+- Upoznali smo se s različitim okvirima i metodama poput Zettelkastena i PARA i vidjeli kako se <em>praktično primjenjuju</em> kroz različite faze PKM procesa: unos informacija (<em>capture</em>), organizacija (<em>structure</em>), povezivanje (<em>relate</em>) i korištenje (<em>create</em>).
+- Savladali smo osnove <strong>Markdowna</strong> i Obsidian sučelja, te isprobali bilježenje s linkovima, tagovima i predlošcima kako bismo ubrzali i standardizirali svoj rad.
+- Izradili smo nekoliko <strong>ključnih predložaka</strong> (za literaturu, knjige, osobe, sastanke) koji će nam olakšati daljnje vođenje bilješki – sada imate polazište koje možete doraditi i prilagoditi svom stilu.
+- Vidjeli smo moć Obsidiana kroz <strong>povezivanje bilješki</strong> i vizualizaciju grafa – kako se s povećanjem broja bilješki povećava i vrijednost sustava kroz mrežu odnosa među informacijama.
+- Demonstrirali smo korištenje <strong>plugina</strong> poput Tasks, Calendar i Dataview kojima Obsidian prerasta okvire običnog dnevnika i postaje sveobuhvatan alat za organizaciju rada: od praćenja zadataka, preko kronološkog dnevnika, do dinamičkih pregleda podataka.
+- Kroz <strong>vježbu pregleda literature</strong> uvježbali smo integraciju alata (Zotero + Obsidian) i prošli konkretne korake obrade jednog izvora.</p>
+<p>Na kraju, možda se osjećate preplavljeni s brojnim novim informacijama (ironija, zar ne?). Važno je naglasiti: <strong>osobni sustav znanja gradi se postupno</strong>. Najbolje prakse koje ste danas čuli rezultat su višemjesečnog ili višegodišnjeg podešavanja. Nemojte pokušati odjednom primijeniti sve – krenite od onoga što vam se čini najkorisnije:</p>
+<p>Ključ uspjeha je <strong>kontinuitet</strong>: svakodnevno (ili svaki drugi dan) radite s Obsidianom, makar 10 minuta – pišite dnevni log, sažmite pročitan članak, razradite neku ideju. Redovito pregledavajte svoj <em>Inbox</em> i pretvarajte ga u strukturirane bilješke. Periodično (npr. jednom mjesečno) prođite kroz sustav, počistite eventualni nered, povežite "siročad", ažurirajte predloške prema potrebi. Tako će vaš prošireni um sustavno rasti.</p>
+<p>Za kraj, nadamo se da vam je radionica pokazala neke nove mogućnosti u vođenju bilješki. Organiziranje informacija ne mora biti dosadan administrativni posao – uz alate poput Obsidiana, pretvara se u <strong>kreativan proces izgradnje vlastite baze znanja</strong> koja vam olakšava svakodnevni rad i potiče intelektualni rast. Sretno bilježenje i povezivanje!</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

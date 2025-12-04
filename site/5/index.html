@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Markdown - Obsidian 101</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Markdown";
+        var mkdocs_page_input_path = "5.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Obsidian 101
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Uvod</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../1/">Teorijski okvir</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../2/">Faze upravljanja znanjem</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../3/">Stilovi upravljanja</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../4/">Uvod u Obsidian</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Markdown</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#5-markdown-perolaki-oznaciteljski-jezik-za-voenje-biljezaka">5. Markdown - perolaki označiteljski jezik za vođenje bilježaka</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../6/">Struktura vaulta</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../7/">Povezivanje bilješki</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../8/">Korištenje vaulta</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../9/">Predlošci</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../10/">Plugins</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../12/">Ostalo</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../13/">Zaključak</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Obsidian 101</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Markdown</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="markdown">Markdown</h1>
+<h2 id="5-markdown-perolaki-oznaciteljski-jezik-za-voenje-biljezaka">5. Markdown - perolaki označiteljski jezik za vođenje bilježaka</h2>
+<p>Obsidian koristi <strong>Markdown</strong> – jednostavni označiteljski jezik – za formatiranje tekstualnih bilješki. To znači da svaka bilješka u pozadini postoji kao obična <code>.md</code> tekst datoteka s Markdown sintaksom. Markdown je vrlo intuitivan i jednostavan za naučiti; sastoji se od oznaka unutar teksta koje označavaju naslove, podebljanja, popise itd. Navodimo neke od najčešćih Markdown oznaka koje se koriste pri izradi bilješki:
+- <strong>Naslovi:</strong> Koristite znak <code>#</code> za naslov na početnoj razini. Više <code>######</code> (do 6) daju podnaslove nižih razina.<br />
+<em>Primjer:</em> <code># Naslov 1</code> za glavni naslov, <code>## Podnaslov</code> za podnaslov itd.
+- <strong>Podebljane i kurziv:</strong> Tekst okružen dvostrukim zvjezdicama <code>**</code> se prikazuje <strong>podebljan</strong>, a tekst u jednostrukim zvjezdicama <code>*</code> se prikazuje u <em>kurzivu</em>.<br />
+<em>Primjeri:</em> <code>**važan pojam**</code> prikazuje <strong>važan pojam</strong>, a <code>*istakni ovo*</code> prikazuje <em>istakni ovo</em>.
+- <strong>Popisi:</strong> Za nabrajanje ili nenumerirane popise koristite crticu <code>-</code> ili zvjezdicu <code>*</code> na početku retka. Za numerirane popise koristite brojke s točkom (npr. <code>1.</code>).<br />
+<em>Primjer:</em></p>
+<pre><code class="language-markdown">- Prva stavka  
+- Druga stavka  
+    - Podstavka (uvučena s 4 razmaka ili tab)  
+
+1. Prva stavka
+2. Druga stavka
+    1. Dodatna stavka
+    2. Dodatna stavka
+    3. ...
+</code></pre>
+<ul>
+<li><strong>Linkovi:</strong> Postoje <strong>vanjski ** i </strong>unutarnji linkovi<strong>. Za vanjske linkove koristimo sljedeću sintaksu <code>[tekst](URL)</code>, npr. <code>[Obsidian web](https://obsidian.md)</code>. Unutarnje poveznice na druge bilješke (tzv. </strong>wiki linkovi<em><em>) pišu se u dvostrukim uglatim zagradama <code>[[ ... ]]</code>. Kod upisivanja <code>[[</code> Obsidian će ponuditi </em>autocomplete</em> za postojeće bilješke. Ako upišete naziv koji ne postoji i zatvorite zagradu, kreirat će se nova bilješka s tim nazivom. Ovo je ključno za povezivanje bilješki unutar vaulta.</li>
+<li><strong>Citati/blokovi teksta:</strong> Veći citati ili napomene mogu se istaknuti znakom <code>&gt;</code> na početku retka, čime tekst postaje citatni blok.</li>
+<li><strong>Blokovi koda:</strong> Za umetanje koda ili pseudo-koda, koristite trostruke backtick oznake ``` (tzv. <em>fenced code block</em>). Obsidian podržava i isticanje sintakse za kod, ali za to vam je potreban plugin pod nazivom <em>Code Styler</em> a pronaći ćete ga pod "Community plugins".</li>
+</ul>
+<pre><code class="language-python">Code Styler i prikaz sintakse računalnog koda
+a = 2
+b = 2
+c = a*b
+print(c)
+4
+</code></pre>
+<ul>
+<li><strong>Slike:</strong> Umetanje slike koristeći sintaksu <code>![[naziv-slike.png]]</code> ako je datoteka slike unutar spremišta, ili <code>![Alt tekst](URL_do_slike)</code> za online slike. (Napomena: Obsidian također ima posebnu funkciju <em>drag-and-drop</em> za slike – ako sliku povučete u bilješku, bit će spremljena u spremište i umetnuta u bilješku.)</li>
+<li><strong>Transkluzije</strong>: Obsidian omogućuje "umetanje" ili "ugrađivanje" (engl. "embedding") jedne ili više bilješki unutar druge. Kada se izvorna bilješka ažurira, promjene se automatski odražva u svim bilješkama u koje je uključena. Da bi se cijela bilješka ugradila u drugu, koristimo sljedeću sintaksu: <code>![[Naziv druge bilješke]]</code></li>
+</ul>
+<blockquote>
+<p>[!TIP] Osnovna i napredna Markdown sintaksa
+Ovo su osnovne oznake dovoljne za većinu bilješki. Više informacija o načinima korištenja Markdowna u Obsidianu možete pronaći unutar <a href="https://help.obsidian.md/syntax">Obsidian Help</a>. </p>
+</blockquote>
+<p>Tijekom pisanja u <strong>Edit modu</strong>, tekst će sadržavati ove oznake, a prelaskom u <strong>Preview</strong> vidjet ćete lijepo formatiran tekst (naslovi uočljiviji, popisi poredani, slike prikazane itd.). Uz malo prakse, počet ćete koristiti <em>Live Preview</em> gdje su neke oznake odmah formatirane dok tipkate (Obsidian v1.0+ omogućuje to). Predlažem da odmah isprobate: <strong>stvori novu bilješku</strong> klikom na ikonu “New Note” (ili tipka <code>Ctrl+N</code>), nazovite je primjerice “Markdown vježba” i pokušajte u nju upisati nekoliko gore navedenih elemenata (naslov, podnaslov, podebljanu riječ, popis od par stavki, i jedan wiki link na bilješku koju još niste stvorili, npr. <code>[[Nova bilješka]]</code>). Potom uključite <em>Preview</em> da vidite rezultat formatiranja.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../4/" class="btn btn-neutral float-left" title="Uvod u Obsidian"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../6/" class="btn btn-neutral float-right" title="Struktura vaulta">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../4/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../6/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
